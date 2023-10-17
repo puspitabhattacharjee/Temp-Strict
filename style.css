@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Oswald&display=swap');
+
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: #fff;
+    font-weight: 400;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+ul{
+    margin-bottom: 0;
+    list-style: none;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* header */
+
+header{
+    background-color: #f6f9f9;
+    padding: 30px 0;
+}
+.strict-menu ul{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.strict-menu ul li a {
+    display: block;
+    padding: 0 20px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    color: #454444;
+}
+
+
+/* banner-area */
+.strict-banner{
+    background: url("image/cover.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment:fixed ;
+    text-align: center;
+    padding: 150px 80px;
+}
+
+.strict-banner-top h1 {
+    color: #fff;
+    font-size: 80px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 35px;
+}
+.strict-banner-top p {
+    color: #fff;
+    font-size: 20px;
+    border-top: 2px solid #15a4fa;
+    display: inline-block; 
+    padding: 35px 20px;
+}
+
+.strict-banner-bottom button {
+    text-align: center;
+    background-color: transparent;
+    color: #fff;
+    border: 1 px solid #15a4fa;
+    padding: 10px 30px;
+}
+
+.strict-banner-bottom a{
+    display: block;
+    margin-top: 175px;
+    color: #fff;
+}
+
+
+/* about area */
+
+.strict-about{
+    background-color: #f6f9f9;
+    padding: 85px 0;
+}
+
+.strict-title{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.strict-title h2{
+    color: #2d3950;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.strict-title-text p {
+    color: #999999;
+    font-size: 20px;
+}
+
+/* service-area */
+
+.strict-service{
+    padding: 85px 0;
+    background-color: #fff;
+    display: flex;
+}
+
+.strict-service-icon{
+    width: 70px;
+    height: 70px;
+    background: linear-gradient();
+    color: #fff;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 15px;
+}
+
+.strict-service-text{
+    text-align: center;
+    padding: 0 20px;
+}
+
+.strict-service-text h5 {
+    font-size: 22px;
+    color: #2d3950;
+}
+
+.strict-service-text p{
+    font-size: 15px;
+    color: #999999;
+}
+
+/* Work */
+.strict-work{
+    background-color: #f6f9f9;
+    padding: 85px 0;
+}
+.strict-work-img{
+    position: relative;
+    margin-bottom: 25px;
+}
+.strict-work-img img{
+    width: 100%;
+}
+.strict-work-overlay{
+    background-color: rgba(21, 164, 250, 0.9);
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: .4s;
+}
+
+.strict-work-overlay:hover{
+    opacity: 1;
+}
+
+.strict-work-overlay ul{
+    display: flex;
+}
+.strict-work-overlay ul li{
+    border: 1px solid #fff;
+    width: 40px;
+    height: 40px;
+    margin: 0 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+/* Contact Area */
+.Strict-contact{
+    background: url('image/contact.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 85px 0;
+}
+.strict-contact-overlay{
+    background-color: rgba(45, 57, 79, 0.9);
+    padding: 85px 0;
+}
+.Strict-contact .strict-title h2{
+    color: #fff;
+}
+.Strict-contact form input{
+    background-color: transparent;
+}
+.Strict-contact form textarea{
+    background-color: transparent;
+}
+.strict-form-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.strict-form-subscribe label{
+    color: #fff;
+    margin-left: 10px;
+    font-size: 15px;
+}
+.strict-form-submit input{
+    border: 1px solid #15a3f9;
+    color: #fff;
+    padding: 5px 30px;
+}
+
+/* Footer Area */
+
+footer{
+    background-color: #f5f9f9;
+    padding: 20px 0;
+}
+.strict-copyright{
+    margin-bottom: 0;
+    color: #999999;
+    font-size: 15px;
+}
+.strict-social ul{
+    display: flex;
+    justify-content: flex-end;
+}
+.strict-social ul li{
+    width: 35px;
+    height: 35px;
+    background-color: #15a3f9;
+    margin: 0 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.strict-social ul li a{
+    color: #fff;
+}
